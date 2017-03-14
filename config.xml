@@ -11,6 +11,10 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <author email="mondher.2jam@gmail.com" href="mondher.2jam@gmail.com">MondherMtj</author>
     <content src="index.html" />
     <access origin="*" />
+    <allow-navigation href="http://*/*" />
+        <allow-intent href="http://*/*" />
+        <allow-intent href="https://*/*" /> 
+        <allow-intent href="*" />
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" /> 
