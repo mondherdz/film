@@ -16,11 +16,11 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
 
-    <!-- Customize your app and platform with the preference element. -->
-    <gap:plugin name="cordova-plugin-whitelist" source="npm" spec="*"/>
-
-    <!-- White list https access to Youtube -->
-    <allow-navigation href="https://*youtube.com/*"/>
+   
+    <preference name="AllowInlineMediaPlayback" value="true" />
+    <preference name="MediaPlaybackRequiresUserAction" value="false" />   
+    <allow-navigation href="*youtube*" />
+    <allow-navigation href="*ytimg*" />
     
     <preference name="orientation"                value="portrait" />        <!-- all: default means both landscape and portrait are enabled -->
     <preference name="target-device"              value="handset" />      <!-- all: possible values handset, tablet, or universal -->
