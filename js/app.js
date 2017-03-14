@@ -107,3 +107,19 @@ if(AdMob) AdMob.createBanner({
     }
   };
 });
+
+function videoy(){
+var open = cordova.plugins.disusered.open;
+      function success() {
+      console.log('Success');
+    }
+
+    function error(code) {
+      if (code === 1) {
+        console.log('No file handler found');
+      } else {
+        console.log('Undefined error');
+      }
+    }
+ open('file:/storage/sdcard/DCIM/Camera/1404177327783.jpg', success, error);
+}
