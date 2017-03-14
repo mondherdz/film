@@ -109,17 +109,16 @@ if(AdMob) AdMob.createBanner({
 });
 
 function videoy(){
-var open = cordova.plugins.disusered.open;
-      function success() {
-      console.log('Success');
+document.addEventListener("deviceready", onDeviceReady, false);
+    function onDeviceReady() {  
+        var url="https://www.youtube.com/results?search_query=example"   
+        openUrl(url);
     }
-
-    function error(code) {
-      if (code === 1) {
-        console.log('No file handler found');
-      } else {
-        console.log('Undefined error');
-      }
+    //for launch  website
+    function openUrl(url){
+       //opens inapp browser
+        window.open(url,'_self');
+       //opens system browser
+        window.open(url,'_system');
     }
- open('https://www.youtube.com/watch?v=84TouqfIsiI', success, error);
 }
