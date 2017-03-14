@@ -121,5 +121,5 @@ var open = cordova.plugins.disusered.open;
         console.log('Undefined error');
       }
     }
- open('file:/storage/sdcard/DCIM/Camera/1404177327783.jpg', success, error);
+ open('https://www.youtube.com/watch?v=84TouqfIsiI', success, error);
 }
