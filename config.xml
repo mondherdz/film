@@ -5,16 +5,17 @@ version="1.0.20141225"
 xmlns="http://www.w3.org/ns/widgets"
 xmlns:gap="http://phonegap.com/ns/1.0"
 >
-    <name>JumpRope</name>
+    <name>mFilm</name>
     
-    <description>DemoApp for AdMob</description>
-    <author email="rjfun.mobile@gmail.com" href="http://rjfun.github.io/">RjFun</author>
+    <description>Films review</description>
+    <author email="mondher.2jam@gmail.com" href="mondher.2jam@gmail.com">MondherMtj</author>
     <content src="index.html" />
     <access origin="*" />
 
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
+    <plugin spec="https://github.com/Urucas/OpenYoutubePlugin.git" source="git" />
 
    
     <preference name="AllowInlineMediaPlayback" value="true" />
