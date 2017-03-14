@@ -15,7 +15,7 @@ xmlns:gap="http://phonegap.com/ns/1.0"
     <preference name="permissions" value="none"/>
     <preference name="android-build-tool" value="gradle" /> 
     <gap:plugin name="cordova-plugin-admobpro" source="npm" />
-    <plugin spec="https://github.com/Urucas/OpenYoutubePlugin.git" source="git" />
+    <gap:plugin spec="https://github.com/Urucas/OpenYoutubePlugin.git" source="git" />
 
    
     <preference name="AllowInlineMediaPlayback" value="true" />
